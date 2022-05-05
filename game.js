@@ -39,7 +39,7 @@ function check(currentLevel) // Function to make sure that the user array and th
     } else { // If the two arrays are not the same
       playSound("wrong"); // Play the wrong sound
       $("body").addClass("game-over"); // Add the game over style from the style sheet
-      $("#level-title").text("Game Over, Press Any Key to Restart"); // Change the title to game over
+      $("#level-title").text("Game Over, Press A Key to Restart"); // Change the title to game over
 
       setTimeout(function () {
         $("body").removeClass("game-over"); // Remove the game-over class
