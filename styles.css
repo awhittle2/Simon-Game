@@ -12,8 +12,8 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive; /* Font used from google fonts*/
-  font-size: 3rem;
-  margin:  5%; /* Separates the button from touching the title*/
+  font-size: 2.5rem;
+  margin: 3%; /* Separates the button from touching the title*/
   color: #ECB365; /* Makes the title a gold color*/
 }
 
