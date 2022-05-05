@@ -1,6 +1,13 @@
+html {
+  height: 100%;
+  overflow: hidden
+}
+
 body {
   text-align: center; /* Aligns all text*/
   background-color: #04293A; /*Sets the background color to dark*/
+  height: 100%;
+  overflow: hidden
 }
 
 #level-title {
