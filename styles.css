@@ -20,8 +20,8 @@ body {
 .btn { /* Style for all of the buttons*/
   margin: 25px; /* Separates the buttons from each other*/
   display: inline-block; /* Allows for button to be on the same line*/
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   border: 10px solid #041C32; /* Adds a border to each button*/
   border-radius: 20%; /*Smooths out the border so it itsnt so square*/
 }
