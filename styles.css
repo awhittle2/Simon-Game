@@ -1,53 +1,53 @@
 body {
-  text-align: center;
-  background-color: #011F3F;
+  text-align: center; /* Aligns all text*/
+  background-color: #04293A; /*Sets the background color to dark*/
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive; /* Font used from google fonts*/
+  font-size: 4rem;
+  margin:  5%; /* Separates the button from touching the title*/
+  color: #ECB365; /* Makes the title a gold color*/
 }
 
-.container {
+.container { /* Formats all of the button as a group*/
   display: block;
-  width: 50%;
-  margin: auto;
+  width: 50%; /* Will only take up 50% of the screen*/
+  margin: auto; /* Stays in the middle*/
 
 }
 
-.btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+.btn { /* Style for all of the buttons*/
+  margin: 25px; /* Separates the buttons from each other*/
+  display: inline-block; /* Allows for button to be on the same line*/
+  height: 300px;
+  width: 300px;
+  border: 10px solid #041C32; /* Adds a border to each button*/
+  border-radius: 20%; /*Smooths out the border so it itsnt so square*/
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
+.game-over { /* Style for when the game is over*/
+  background-color: #EE5007; /* Set the background to a dark orange*/
+  opacity: 0.75;
 }
 
-.red {
-  background-color: red;
+.red { /* Sets the red button div to be red*/
+  background-color: #B22727;
 }
 
-.green {
-  background-color: green;
+.green { /* Sets the green button div to be green*/
+  background-color: #6EBF8B;
 }
 
-.blue {
-  background-color: blue;
+.blue { /* Sets the blue button div to be blue*/
+  background-color: #006E7F;
 }
 
-.yellow {
-  background-color: yellow;
+.yellow { /* Sets the yellow button div to be yellow*/
+  background-color: #F8CB2E;
 }
 
-.pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+.pressed { /* Style for when a button is pressed*/
+  box-shadow: 0 0 20px white; /* Adds a white shadow around the button*/
+  background-color: grey; /* Turns the button gray*/
 }

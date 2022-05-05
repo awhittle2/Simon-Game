@@ -3,41 +3,36 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simon</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Links the style sheet-->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> <!-- Links the google font used-->
+  <link rel="icon" type="image/png" sizes="16x16"  href="favicon-16x16.png"> <!-- Links the favicon-->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
   <h1 id="level-title">Press A Key to Start</h1>
-  <div class="container">
-    <div lass="row">
-
-      <div type="button" id="green" class="btn green">
-
+  <!-- Beginning title text, will change once the game is started-->
+  <div class="container"> <!-- Container class to hold the two rows-->
+    <div class="row"> <!-- Row 1-->
+      <div type="button" id="green" class="btn green"> <!-- Div to represent the green button, which will be created in the styles sheet-->
       </div>
 
-      <div type="button" id="red" class="btn red">
-
+      <div type="button" id="red" class="btn red"> <!-- Div to represent the red button, which will be created in the styles sheet-->
       </div>
     </div>
 
-    <div class="row">
-
-      <div type="button" id="yellow" class="btn yellow">
-
-      </div>
-      <div type="button" id="blue" class="btn blue">
-
+    <div class="row"> <!-- Row 2-->
+      <div type="button" id="yellow" class="btn yellow"> <!-- Div to represent the yellow button, which will be created in the styles sheet-->
       </div>
 
+      <div type="button" id="blue" class="btn blue"> <!-- Div to represent the blue button, which will be created in the styles sheet-->
+      </div>
     </div>
-
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="game.js" charset="utf-8"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Allows for the use of jQuery-->
+  <script src="game.js" charset="utf-8"></script> <!-- Links the javascript code-->
 </body>
-
 </html>
